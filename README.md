@@ -72,3 +72,14 @@ With [Papermill](https://github.com/nteract/papermill):
 ## Questions? Bugs? Feature Requests? Need Support?
 
 Post a ticket in the [QS Ledger Issue Queue](https://github.com/markwk/qs_ledger/issues) 
+
+JB setting up repo
+git init
+  git status
+  git config --global user.email "Joel@joelbell.net"
+  git config --global user.name "joelbell"
+  git commit -m "First commit"
+  git remote add <name> <url>
+  git remote add origin https://github.com/joelbell/qs_ledger.git
+  git pull origin master 
+  
