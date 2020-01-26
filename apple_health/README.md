@@ -11,3 +11,8 @@ git push --set-upstream origin master
 git commit -a -m "ready for pushing readme"
 git push --all
 saved again to update readme
+git commit -a -m "ready for pushing readme"
+git push --all
+
+So, the above shows initial push, then subsequent pushes.
+I'm doing another push to get this text up, then done for now.
