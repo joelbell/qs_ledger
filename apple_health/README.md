@@ -16,3 +16,17 @@ git push --all
 
 So, the above shows initial push, then subsequent pushes.
 I'm doing another push to get this text up, then done for now.
+
+# Getting Gateway up 
+git config --global user.email "Joel@joelbell.net"
+git config --global user.name "joelbell"
+git remote add origin https://github.com/joelbell/qs_ledger.git
+git pull origin mastercd
+cd apple_health
+Put export.xml in data folder
+Ran the parser
+	python3 apple-health-data-parser.py data/export.xml
+
+# .csv files
+ActivitySummary.csv	Kcals by day
+Workout.csv		Kcals, time and distance by workout (lots of workouts not showing)
